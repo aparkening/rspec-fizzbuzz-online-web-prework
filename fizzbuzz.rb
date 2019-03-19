@@ -1,9 +1,10 @@
 
-  it 'returns "Fizz" when the number is divisible by 3' do
-    fizz_3 = fizzbuzz(3)
-    expect(fizz_3).to eq("Fizz")
-
+# Return fizz, buzz, 
 def fizzbuzz(int) 
-  if int % 3
+  if int % 3 == 0 
+    return "Fizz"
+  elsif int % 5 == 0
+    return "Buzz"
+  elsif int
 end
 
